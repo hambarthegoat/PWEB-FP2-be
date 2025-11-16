@@ -1,6 +1,8 @@
 #IGNORE COMPILED OUTPUT
 .o
 .exe
+bin/
+*.log
 
 #IGNORE SENSITIVE INFORMATION
 .env
