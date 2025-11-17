@@ -28,8 +28,8 @@ func main() {
 	userSvc := service.NewUserService(userRepo)
 	communitySvc := service.NewCommunityService(communityRepo)
 	postSvc := service.NewPostService(postRepo, voteRepo)
-	commentSvc := service.NewCommentRepo(commentRepo, voteRepo)
-	voteSvc := service.NewVoteRepo(voteRepo)
+	commentSvc := service.NewCommentService(commentRepo, voteRepo)
+	voteSvc := service.NewVoteService(voteRepo)
 
 	//HANDLERS
 	r := gin.Default()

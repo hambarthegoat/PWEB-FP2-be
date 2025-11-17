@@ -1,0 +1,4 @@
+[
+  { "content": "Great post!", "author": "bob@example.com", "post_title": "Welcome to Gophers" },
+  { "content": "I agree", "author": "carol@example.com", "post_title": "Welcome to Gophers" }
+]

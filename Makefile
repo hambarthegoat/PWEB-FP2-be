@@ -3,3 +3,6 @@ run:
 
 migrate: 
 	go run migrations/auto_migrate.go
+
+seed:
+	go run cmd/seed/main.go

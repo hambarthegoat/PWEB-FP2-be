@@ -1,0 +1,5 @@
+[
+  { "title": "Welcome to Gophers", "content": "Hello from Alice", "author": "alice@example.com", "community": "golang" },
+  { "title": "Programming tips", "content": "Use functions", "author": "bob@example.com", "community": "programming" },
+  { "title": "Concurrency in Go", "content": "Goroutines are lightweight", "author": "carol@example.com", "community": "golang" }
+]

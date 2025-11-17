@@ -1,0 +1,4 @@
+[
+  { "user": "bob@example.com", "post_title": "Welcome to Gophers", "value": 1 },
+  { "user": "carol@example.com", "post_title": "Welcome to Gophers", "value": 1 }
+]
