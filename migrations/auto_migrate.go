@@ -7,7 +7,7 @@ import (
 	"github.com/hambarthegoat/PWEB-FP2-be/internal/model"
 )
 
-func main() {
+func Migrate() {
 	cfg := config.Load()
 	db := config.ConnectSupabase(cfg)
 
@@ -17,7 +17,7 @@ func main() {
 		&model.Post{},
 		&model.Comment{},
 		&model.Vote{},
-	)	
+	)
 
 	if err != nil {
 		log.Fatal(err)

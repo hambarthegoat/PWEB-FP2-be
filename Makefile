@@ -2,7 +2,7 @@ run:
 	go run cmd/api/main.go
 
 migrate: 
-	go run migrations/auto_migrate.go
+	go run cmd/migrate/main.go
 
 seed:
 	go run cmd/seed/main.go
